@@ -1,0 +1,2 @@
+rootProject.name = "homework.6.AndroidStudio"
+include ':app'

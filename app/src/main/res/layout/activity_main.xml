@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+  <Button
+      android:layout_marginTop="160dp"
+      android:text="Open"
+      android:background="@color/cardview_dark_background"
+      android:id="@+id/btn_open"
+      android:layout_marginHorizontal="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
